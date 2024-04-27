@@ -34,40 +34,55 @@ You are stuck in a virtual room and can only leave if you figure out the passwor
 
 **What is the secret password?**
 ```
-1. Based on CLUE# 1
-![Find and references to CAKE in CLUES directory](image-2.png)
-![Using bash diff to identify unique cake ingredients-1](image-3.png)
-![Using bash diff to identify unique cake ingredients-2](image-4.png)
-![Manually comparing all three cake recipies](image-5.png)
-FOUND: `Paper Rings`
-
-2. Based on CLUE# 2
-![Using script file to identify the season with 18 episodes](image-6.png)
-![The script output indicates that season 10 has on 18 episodes](image-7.png)
-FOUND: `10`
-
-3. Based on CLUE# 3
-![Changin directory to Shows > Friends > Season 6](image-8.png)
-![Identifying fifth word](image-9.png)
-FOUND: `Meets`
-
-4. Based on CLUE# 4
-![Changing directory to movies > Space Wars ](image-10.png)
-![Identified fifth word of fifth movie](image-11.png)
-FOUND: `and`
-
-5. Based on CLUE# 5
-![Finding a song with 4:00 duration under a color album](image-12.png)
-![Found the song](image-13.png)
-FOUND: `Lucky`
-
-6: Based on CLUE# 6
-![Changing directory and opening fourth movie of the hanger games movie directory](image-14.png)
-![Reading the contents of movie_4 text file](image-15.png)
-FOUND: `Stars`
-
-##`Paper Rings10MeetsandLuckyStars`
+Paper Rings10MeetsandLuckyStars
 ```
+
+## STEPS
+### 1. Based on CLUE# 1
+#### Find and references to CAKE in CLUES directory
+   ![Find and references to CAKE in CLUES directory](image-2.png)
+#### Using bash diff to identify unique cake ingredients-1
+   ![Using bash diff to identify unique cake ingredients-1](image-3.png)
+#### Using bash diff to identify unique cake ingredients-2
+   ![Using bash diff to identify unique cake ingredients-2](image-4.png)
+#### Manually comparing all three cake recipes
+   ![Manually comparing all three cake recipes](image-5.png)
+#### FOUND: `Paper Rings`
+
+### 2. Based on CLUE# 2
+#### Using script file to identify the season with 18 episodes
+   ![Using script file to identify the season with 18 episodes](image-6.png)
+#### The script output indicates that season 10 has on 18 episodes
+   ![The script output indicates that season 10 has on 18 episodes](image-7.png)
+#### FOUND: `10`
+
+### 3. Based on CLUE# 3
+#### Changin directory to Shows > Friends > Season 6
+   ![Changin directory to Shows > Friends > Season 6](image-8.png)
+#### Identifying fifth word
+   ![Identifying fifth word](image-9.png)
+#### FOUND: `Meets`
+
+### 4. Based on CLUE# 4
+#### Changing directory to movies > Space Wars
+   ![Changing directory to movies > Space Wars](image-10.png)
+#### Identified fifth word of fifth movie
+   ![Identified fifth word of fifth movie](image-11.png)
+#### FOUND: `and`
+
+### 5. Based on CLUE# 5
+#### Finding a song with 4:00 duration under a color album
+   ![Finding a song with 4:00 duration under a color album](image-12.png)
+#### Found the song
+   ![Found the song](image-13.png)
+#### FOUND: `Lucky`
+
+### 6. Based on CLUE# 6
+#### Changing directory and opening fourth movie of the hanger games movie directory
+   ![Changing directory and opening fourth movie of the hanger games movie directory](image-14.png)
+#### Reading the contents of movie_4 text file
+   ![Reading the contents of movie_4 text file](image-15.png)
+#### FOUND: `Stars`
 
 |Criteria|Complete|Incomplete|
 |---|---|---|
